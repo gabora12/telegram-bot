@@ -4,7 +4,7 @@ const { StoreSession } = require("telegram/sessions");
 const { NewMessage } = require("telegram/events");
 const input = require("input");
 
-const apiId = process.env.API_ID * 1;
+const apiId = process.env.API_ID * 1;         
 const apiHash = process.env.API_HASH;
 const storeSession = new StoreSession('/session');
 
